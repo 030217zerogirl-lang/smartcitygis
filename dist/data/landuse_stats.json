@@ -1,0 +1,97 @@
+{
+  "generatedAt": "2026-06-21T16:18:01.462Z",
+  "sourceLayer": "UPIS_C_UQ111",
+  "sourceDataset": "용도지역정보(도시계획)_20240215_전국",
+  "methodology": "UPIS_C_UQ111 용도지역 폴리곤을 WGS84로 변환 후 분석권역 seed와 clip하고, DGM_NM 기준으로 주거/상업/공업/녹지/기타로 재분류하여 면적 비율과 LUM을 계산했다.",
+  "lumDefinition": "LUM = -Σ(p_i ln p_i) / ln(5), p_i는 5개 재분류 용도 비율",
+  "regions": {
+    "pangyo": {
+      "regionId": "pangyo",
+      "regionName": "판교",
+      "featureCount": 86,
+      "totalAreaSqm": 11436108.2,
+      "lum": 0.572,
+      "categories": [
+        {
+          "key": "residential",
+          "label": "주거지역",
+          "color": "#f4a261",
+          "areaSqm": 4405665.2,
+          "ratio": 38.52
+        },
+        {
+          "key": "commercial",
+          "label": "상업지역",
+          "color": "#e76f51",
+          "areaSqm": 761279.6,
+          "ratio": 6.66
+        },
+        {
+          "key": "industrial",
+          "label": "공업지역",
+          "color": "#577590",
+          "areaSqm": 97426.7,
+          "ratio": 0.85
+        },
+        {
+          "key": "green",
+          "label": "녹지지역",
+          "color": "#2a9d8f",
+          "areaSqm": 6171736.7,
+          "ratio": 53.97
+        },
+        {
+          "key": "other",
+          "label": "기타",
+          "color": "#8d99ae",
+          "areaSqm": 0,
+          "ratio": 0
+        }
+      ]
+    },
+    "cheongna": {
+      "regionId": "cheongna",
+      "regionName": "청라",
+      "featureCount": 114,
+      "totalAreaSqm": 22487138.4,
+      "lum": 0.678,
+      "categories": [
+        {
+          "key": "residential",
+          "label": "주거지역",
+          "color": "#f4a261",
+          "areaSqm": 5573408.6,
+          "ratio": 24.78
+        },
+        {
+          "key": "commercial",
+          "label": "상업지역",
+          "color": "#e76f51",
+          "areaSqm": 1678933.7,
+          "ratio": 7.47
+        },
+        {
+          "key": "industrial",
+          "label": "공업지역",
+          "color": "#577590",
+          "areaSqm": 2295490.8,
+          "ratio": 10.21
+        },
+        {
+          "key": "green",
+          "label": "녹지지역",
+          "color": "#2a9d8f",
+          "areaSqm": 12939305.2,
+          "ratio": 57.54
+        },
+        {
+          "key": "other",
+          "label": "기타",
+          "color": "#8d99ae",
+          "areaSqm": 0,
+          "ratio": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "generatedAt": "2026-06-20T18:35:21.044Z",
+  "methodology": "analysis-boundaries.geojson 기반 분석권역으로 연속지적도 필지를 클립한 뒤, 건축물대장 표제부/부속지번의 PNU를 정규화해 권역별 건축물 통계를 집계했다.",
+  "limitations": [
+    "건축물 도형 원본이 없어 지도 클릭 기능은 구현하지 않았다.",
+    "건축물 권역 매칭은 분석권역과 교차한 필지 PNU 기준이며, 건축물대장과 지적도 키가 일치하는 항목만 포함했다.",
+    "건축물대장 대지구분코드의 0 값은 지적도 PNU 규칙에 맞게 일반 필지값 1로 정규화하여 매칭했다.",
+    "본 결과는 공식 사업구역 경계가 아니라 분석권역 기준 통계다."
+  ],
+  "regions": {
+    "pangyo": {
+      "regionId": "pangyo",
+      "regionName": "판교 분석권역",
+      "parcelCountInRegion": 2596,
+      "matchedParcelCount": 1465,
+      "matchedBuildingCount": 2724,
+      "totalFloorAreaSum": 13136363.5,
+      "totalSiteAreaSum": 41931711.9,
+      "averageFar": 162.4,
+      "topUses": [
+        {
+          "useName": "공동주택",
+          "buildingCount": 931,
+          "floorAreaSum": 5005042.6,
+          "siteAreaSum": 22721139.7
+        },
+        {
+          "useName": "업무시설",
+          "buildingCount": 133,
+          "floorAreaSum": 3662843.8,
+          "siteAreaSum": 466658.7
+        },
+        {
+          "useName": "교육연구시설",
+          "buildingCount": 90,
+          "floorAreaSum": 1157164.2,
+          "siteAreaSum": 967464.5
+        },
+        {
+          "useName": "판매시설",
+          "buildingCount": 14,
+          "floorAreaSum": 861834.3,
+          "siteAreaSum": 150935
+        },
+        {
+          "useName": "자동차관련시설",
+          "buildingCount": 99,
+          "floorAreaSum": 583032.1,
+          "siteAreaSum": 4019103.8
+        },
+        {
+          "useName": "제1종근린생활시설",
+          "buildingCount": 193,
+          "floorAreaSum": 423523.8,
+          "siteAreaSum": 5838870.7
+        },
+        {
+          "useName": "제2종근린생활시설",
+          "buildingCount": 190,
+          "floorAreaSum": 354534.3,
+          "siteAreaSum": 6243254.2
+        },
+        {
+          "useName": "단독주택",
+          "buildingCount": 961,
+          "floorAreaSum": 287330.8,
+          "siteAreaSum": 245124
+        },
+        {
+          "useName": "의료시설",
+          "buildingCount": 13,
+          "floorAreaSum": 179698.9,
+          "siteAreaSum": 52427.9
+        },
+        {
+          "useName": "운동시설",
+          "buildingCount": 9,
+          "floorAreaSum": 137682.6,
+          "siteAreaSum": 41023.3
+        },
+        {
+          "useName": "숙박시설",
+          "buildingCount": 9,
+          "floorAreaSum": 136122.9,
+          "siteAreaSum": 12767.2
+        },
+        {
+          "useName": "종교시설",
+          "buildingCount": 14,
+          "floorAreaSum": 114027.5,
+          "siteAreaSum": 33191.1
+        },
+        {
+          "useName": "문화및집회시설",
+          "buildingCount": 14,
+          "floorAreaSum": 89419.1,
+          "siteAreaSum": 129686.8
+        },
+        {
+          "useName": "창고시설",
+          "buildingCount": 7,
+          "floorAreaSum": 75637.1,
+          "siteAreaSum": 448226.6
+        },
+        {
+          "useName": "노유자시설",
+          "buildingCount": 13,
+          "floorAreaSum": 24077.7,
+          "siteAreaSum": 231237.1
+        },
+        {
+          "useName": "분뇨.쓰레기처리시설",
+          "buildingCount": 11,
+          "floorAreaSum": 19322.8,
+          "siteAreaSum": 182763.9
+        },
+        {
+          "useName": "방송통신시설",
+          "buildingCount": 2,
+          "floorAreaSum": 16819.7,
+          "siteAreaSum": 4700.3
+        },
+        {
+          "useName": "위험물저장및처리시설",
+          "buildingCount": 7,
+          "floorAreaSum": 4472.6,
+          "siteAreaSum": 7451
+        },
+        {
+          "useName": "수련시설",
+          "buildingCount": 1,
+          "floorAreaSum": 2474.3,
+          "siteAreaSum": 0
+        },
+        {
+          "useName": "관광휴게시설",
+          "buildingCount": 11,
+          "floorAreaSum": 598.1,
+          "siteAreaSum": 111080.1
+        }
+      ],
+      "categoryRatios": {
+        "denominator": 2498,
+        "office": 5.3,
+        "neighborhood": 15.3,
+        "residential": 75.7,
+        "educationResearch": 3.6
+      }
+    },
+    "cheongna": {
+      "regionId": "cheongna",
+      "regionName": "청라 분석권역",
+      "parcelCountInRegion": 8655,
+      "matchedParcelCount": 3106,
+      "matchedBuildingCount": 4857,
+      "totalFloorAreaSum": 14411020.5,
+      "totalSiteAreaSum": 32752870.1,
+      "averageFar": 125.7,
+      "topUses": [
+        {
+          "useName": "공동주택",
+          "buildingCount": 1281,
+          "floorAreaSum": 7785014.7,
+          "siteAreaSum": 427075.4
+        },
+        {
+          "useName": "업무시설",
+          "buildingCount": 92,
+          "floorAreaSum": 1914412.3,
+          "siteAreaSum": 306298.2
+        },
+        {
+          "useName": "공장",
+          "buildingCount": 777,
+          "floorAreaSum": 1481216.9,
+          "siteAreaSum": 1238590
+        },
+        {
+          "useName": "단독주택",
+          "buildingCount": 1687,
+          "floorAreaSum": 547335.7,
+          "siteAreaSum": 504409.7
+        },
+        {
+          "useName": "교육연구시설",
+          "buildingCount": 149,
+          "floorAreaSum": 535405.8,
+          "siteAreaSum": 16199971.5
+        },
+        {
+          "useName": "제2종근린생활시설",
+          "buildingCount": 347,
+          "floorAreaSum": 508794.4,
+          "siteAreaSum": 399139.5
+        },
+        {
+          "useName": "제1종근린생활시설",
+          "buildingCount": 194,
+          "floorAreaSum": 445407.8,
+          "siteAreaSum": 3929872.5
+        },
+        {
+          "useName": "자동차관련시설",
+          "buildingCount": 48,
+          "floorAreaSum": 338971.2,
+          "siteAreaSum": 122035.1
+        },
+        {
+          "useName": "판매시설",
+          "buildingCount": 32,
+          "floorAreaSum": 241061.7,
+          "siteAreaSum": 155043.5
+        },
+        {
+          "useName": "창고시설",
+          "buildingCount": 43,
+          "floorAreaSum": 186811.3,
+          "siteAreaSum": 170359.6
+        },
+        {
+          "useName": "문화및집회시설",
+          "buildingCount": 4,
+          "floorAreaSum": 177867.3,
+          "siteAreaSum": 1340031.4
+        },
+        {
+          "useName": "운동시설",
+          "buildingCount": 24,
+          "floorAreaSum": 55538,
+          "siteAreaSum": 2106026.1
+        },
+        {
+          "useName": "종교시설",
+          "buildingCount": 16,
+          "floorAreaSum": 43520.5,
+          "siteAreaSum": 23783.5
+        },
+        {
+          "useName": "노유자시설",
+          "buildingCount": 18,
+          "floorAreaSum": 37405.5,
+          "siteAreaSum": 194099.9
+        },
+        {
+          "useName": "의료시설",
+          "buildingCount": 4,
+          "floorAreaSum": 25537,
+          "siteAreaSum": 3246.8
+        },
+        {
+          "useName": "발전시설",
+          "buildingCount": 32,
+          "floorAreaSum": 23672.6,
+          "siteAreaSum": 938797.7
+        },
+        {
+          "useName": "위험물저장및처리시설",
+          "buildingCount": 48,
+          "floorAreaSum": 17040.6,
+          "siteAreaSum": 207628.1
+        },
+        {
+          "useName": "분뇨.쓰레기처리시설",
+          "buildingCount": 16,
+          "floorAreaSum": 17018.2,
+          "siteAreaSum": 65346.9
+        },
+        {
+          "useName": "관광휴게시설",
+          "buildingCount": 24,
+          "floorAreaSum": 10772.6,
+          "siteAreaSum": 4149349.5
+        },
+        {
+          "useName": "교육연구및복지시설",
+          "buildingCount": 3,
+          "floorAreaSum": 7445.8,
+          "siteAreaSum": 29384
+        }
+      ],
+      "categoryRatios": {
+        "denominator": 3753,
+        "office": 2.5,
+        "neighborhood": 14.5,
+        "residential": 79.1,
+        "educationResearch": 4
+      }
+    }
+  }
+}
