@@ -1,0 +1,22 @@
+{
+  "pangyo": {
+    "id": "pangyo",
+    "featureCount": 246,
+    "totals": {
+      "population": 118190,
+      "household": 45969,
+      "workers": 217456,
+      "jobsHousingRatio": 1.8
+    }
+  },
+  "cheongna": {
+    "id": "cheongna",
+    "featureCount": 338,
+    "totals": {
+      "population": 170891,
+      "household": 65646,
+      "workers": 76070,
+      "jobsHousingRatio": 0.4
+    }
+  }
+}
